@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     environment {
         DOCKERHUB_CREDENTIALS = 'dockerhub-creds' 
         APP_NAME = "Kavana55/my-app"
